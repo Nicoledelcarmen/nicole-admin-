@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 function Sidebar() {
   return (
     <>
-      <div className="w-[20vw] bg-gray-300 h-screen p-5">
-        <div className="my-5">
+      <div className="w-[20vw] bg-gray-700 h-screen p-5">
+        <div className="my-5 text-white">
           <h1 className="font-bold text-2xl">Admin Dashboard</h1>
           <br />
           <div className="my-[10rem]"></div>
-          <nav className="flex flex-col gap-10 list-none items-start text-black">
+          <nav className="flex flex-col gap-10 list-none items-start text-white">
             <li>
               <Link to="/admin/users" className="flex flex-row gap-2 text-2xl">
                 <FaUsers className="text-3xl" />

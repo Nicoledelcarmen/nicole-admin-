@@ -8,7 +8,7 @@ function Footer() {
       <footer
         className="h-auto w-full flex flex-row gap-10
       max-md:flex-col
-      max-md:px-2
+      max-md:px-2  
       "
       >
         <div>

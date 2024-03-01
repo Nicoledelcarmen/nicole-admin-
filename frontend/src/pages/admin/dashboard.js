@@ -37,7 +37,7 @@ function AdminDashboard() {
           </div>
 
           {/* Shows the Number of Users, Cases, etc. */}
-          <div className="flex flex-row gap-1 items-center justify-center w-[75vw] text-azure">
+          <div className="flex flex-row gap-2 items-center justify-center w-[81vw] text-black">
             {/* Start */}
             <div className="flex flex-row border-2 rounded-xl border-azure-400 h-[8rem] w-[20rem] p-3 justify-between items-center">
               <div>
